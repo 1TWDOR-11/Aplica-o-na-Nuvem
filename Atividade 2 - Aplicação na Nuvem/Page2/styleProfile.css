@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #1B2028;
+    margin-left: 180px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #181C23;
+    padding-top: 20px;
+    transition: 0.3s;
+    border-right: 2px solid #3E4757;
+    z-index:1000;
+}
+
+.profile-section {
+    text-align: left;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-section img {
+    width: 68px;
+    height: 64px;
+    border-radius: 9px;
+}
+
+.profile-details {
+    margin-left: -5%;
+}
+
+.profile-details p {
+    margin: 0;
+}
+
+.profile-details .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-details .location {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.notification-icon {
+    font-size: 20px;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.notification-icon:hover {
+    color: #fff;
+}
+
+.nav-section {
+    margin-top: 20px;
+}
+
+.nav-section a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-section a svg{
+    margin-right: 15px;
+}
+
+.nav-section a:hover {
+    background: linear-gradient(131deg, rgba(29, 38, 249, 0.16) 3.04%, rgba(255, 130, 227, 0.16) 117.32%);
+    color: white;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-footer a {
+    color: #818181;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar-footer a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.sidebar-footer a svg{
+    margin-right: 15px;
+}
+
+
+.sidebar-footer a:hover {
+    color: white;
+    background: linear-gradient(131deg, rgba(29, 38, 249, 0.16) 3.04%, rgba(255, 130, 227, 0.16) 117.32%);
+}
+
