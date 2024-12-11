@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Lives Twitch</title>
 <style>
-    body {
+body {
     font-family: Arial, sans-serif;
     background-color: #f3f3f3;
     margin: 0;
@@ -14,20 +14,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
-    h1 {
+}
+
+h1 {
     color: #9146FF;
-    }
-    #search-container {
+}
+
+#search-container {
     margin-bottom: 20px;
-    }
-    #search-container input {
+}
+
+#search-container input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    }
-    #search-container button {
+}
+
+#search-container button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -35,33 +39,43 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
-    }
-    #search-container button:hover {
+}
+
+#search-container button:hover {
     background-color: #7225B3;
-    }
-    ul {
+}
+
+ul {
     list-style: none;
     padding: 0;
     width: 100%;
-    max-width: 800px;
-    }
-    li {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+li {
     background-color: #ffffff;
-    margin: 10px 0;
+    width: 200px; 
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 15px;
-    }
-    img {
+    gap: 10px;
+}
+
+img {
     width: 100px;
     border-radius: 8px;
-    }
-    .error {
+}
+
+.error {
     color: red;
-    }
+}
 </style>
 </head>
 <body>
